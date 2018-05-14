@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>almaty-czn.kz</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/lightgallery.css">
+    <link rel="stylesheet" href="css/version-impairment.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="img/icons/favicon.png">
+  </head>
+  <body>
+    <div class="container-fluid top-imp ">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="row ">
+          <div class="col-md-2 col-centered">
+            <p>Размер шрифта</p>
+            <div class="btn-group">
+              <button class="btn btn-default btn-sm" type="button" id="a2"><span class="glyphicon glyphicon-minus"></span></button>
+              <button class="btn btn-default btn-sm" type="button" id="a1"><span class="glyphicon glyphicon-plus"></span></button>
+            </div>
+          </div>
+          <div class="col-md-2 col-centered">
+            <p>Шрифт</p>
+            <div class="btn-group">
+              <button class="btn btn-default btn-sm nop" type="button" id="font1"><span style="font-family:'Times New Roman';font-size:14px;">с засечками</span></button>
+              <button class="btn btn-default btn-sm nop" type="button" id="font2"><span style="font-family:'Arial';font-size:14px;">без засечек</span></button>
+            </div>
+          </div>
+          <div class="col-md-3 col-centered">
+            <p><span>Цвета сайта</span></p>
+            <div class="btn-group">
+              <button class="btn btn-default btn-sm" type="button" id="c1"><span class="glyphicon glyphicon-font"></span></button>
+              <button class="btn btn-default btn-sm" type="button" id="c2"><span class="glyphicon glyphicon-font"></span></button>
+              <button class="btn btn-default btn-sm" type="button" id="c3"><span class="glyphicon glyphicon-font"></span></button>
+              <button class="btn btn-default btn-sm" type="button" id="c4"><span class="glyphicon glyphicon-font"></span></button>
+              <button class="btn btn-default btn-sm" type="button" id="c5"><span class="glyphicon glyphicon-font"></span></button>
+            </div>
+          </div>
+          <div class="col-md-2 col-centered">
+            <p>Изображения</p>
+            <div class="btn-group" data-toggle="buttons">
+              <label class="btn btn-default  btn-sm redis">
+                <input type="radio" id="q156" name="imgvis" value="1"><span class="glyphicon glyphicon-eye-open"></span>
+              </label>
+              <label class="btn btn-default  btn-sm redis">
+                <input type="radio" id="q157" name="imgvis" value="2"><span class="glyphicon glyphicon-eye-close"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-md-1 col-centered">
+            <p><span class="glyphicon glyphicon-resize-horizontal">Инт.</span></p>
+            <div class="btn-group">
+              <button class="btn btn-default btn-sm" type="button" id="i2"><span class="glyphicon glyphicon-minus"></span></button>
+              <button class="btn btn-default btn-sm" type="button" id="i1"><span class="glyphicon glyphicon-plus"></span></button>
+            </div>
+          </div>
+          <div class="col-md-1 col-centered">
+            <p><span class="glyphicon glyphicon-resize-vertical">Инт.</span></p>
+            <div class="btn-group">
+              <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-default  btn-sm ol1">
+                  <input type="radio" id="yr1" name="inter" value="1"><span class="glyphicon glyphicon-resize-small"></span>
+                </label>
+                <label class="btn btn-default btn-sm ol1">
+                  <input type="radio" id="yr2" name="inter" value="2"><span class="glyphicon glyphicon-resize-full"></span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-1 col-centered">
+            <p></p>
+            <div class="btn-group">
+              <button class="btn btn-default btn-sm" id="reset"><i class="glyphicon glyphicon-refresh"> Сброс</i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="version-impairment">
+      <div class="header" data-spy="affix" data-offset-top="50">
+        <div class="nav navbar">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#myNavbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href=""><img src="img/logo/logo.png"></a><span class="mob-lang visible-xs"><a href="">қаз</a><a href="">рус</a><a href="">eng</a></span>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <input class="form-control main-search visible-xs" type="text">
+              <ul class="nav navbar-nav menu">
+                <li class="active"><a href="">Главная</a></li>
+                <li><a href="">О Центре</a></li>
+                <li><a href="">Программы</a></li>
+                <li><a href="">новости</a></li>
+                <li><a href="">контакты</a></li>
+              </ul>
+              <div class="right-header">
+                <table>
+                  <tr class="hidden-xs">
+                    <td><a href=""><i class="icons ic-search"></i></a></td>
+                    <td><a href="">қаз</a></td>
+                    <td><a href="">рус</a></td>
+                    <td><a href="">eng</a></td>
+                    <td style="background:#fff;"><a><i class="icons ic-glasses eye"></i></a></td>
+                  </tr>
+                  <tr>
+                    <td><a href=""><i class="icons ic-user"></i></a></td>
+                    <td><a href=""><i class="icons ic-ins"></i></a></td>
+                    <td><a href=""><i class="icons ic-youtobe"></i></a></td>
+                    <td><a href=""><i class="icons ic-fb"></i></a></td>
+                    <td><a href=""><i class="icons ic-tw"></i></a></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="container-fluid">
+          <div class="row top-slider">
+            <div>
+              <div class="top-content" style="background-image: url(img/bg/bg2.png);">
+                <div class="text-top-content">
+                  <div class="container">
+                    <div class="w-830"><img class="center-block" src="img/logo/logo.png">
+                      <p class="min-title"><b>Центр занятости населения города Алматы</b></p>
+                      <p class="big-title">Ищете работу? Обращайтесь</p>
+                      <p class="text-uppercase">Программы развития продуктивной занятости и массового предпринимательства на 2017-2021 годы "Еңбек"</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="top-content" style="background-image: url(img/bg/bg1.png);">
+                <div class="text-top-content">
+                  <div class="container">
+                    <div class="w-830"><img class="center-block" src="img/logo/logo.png">
+                      <p class="min-title"><b>Центр занятости населения города Алматы</b></p>
+                      <p class="big-title">Ищете работу? Обращайтесь</p>
+                      <p class="text-uppercase">Программы развития продуктивной занятости и массового предпринимательства на 2017-2021 годы "Еңбек"</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row section-row">
+            <div class="container">
+              <div class="slid-banner">
+                <div data-aos="fade-up" data-aos-delay="200"><img src="img/banners/img1.png"></div>
+                <div data-aos="fade-up" data-aos-delay="300"><img src="img/banners/img2.png"></div>
+                <div data-aos="fade-up" data-aos-delay="400"><img src="img/banners/img4.png"></div>
+                <div data-aos="fade-up" data-aos-delay="500"><img src="img/banners/img3.png"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row section-row">
+            <div class="container">
+              <div class="row text-grey">
+                <div class="col-sm-3 item-w" data-aos="fade-right"><span class="d-block">100+</span>
+                  <p>Техническое и профессиональное образование для молодежи до 29 лет</p>
+                </div>
+                <div class="col-sm-3 item-w" data-aos="fade-down"><span class="d-block">до 19 млн</span>
+                  <p>Микрокредитование для реализующим или планирующим реализовать бизнес-проекты</p>
+                </div>
+                <div class="col-sm-3 item-w" data-aos="fade-up"><span class="d-block">до 6 мес.</span>
+                  <p>Молодежная практика  с субсидией 25 МРП или 60125 тенге</p>
+                </div>
+                <div class="col-sm-3 item-w" data-aos="fade-left"><span class="d-block">до 12 мес.</span>
+                  <p>Социальные рабочие места с субсидией не более размера 1 МЗП (28284 тенге).</p>
+                </div>
+              </div>
+              <div class="text-center">
+                <button class="btn btn-big btn-blue" type="button">Подробнее о центре</button>
+              </div>
+            </div>
+          </div>
+          <div class="row section-row bg-grey">
+            <div class="container">
+              <p class="main-title text-center">Новости</p>
+              <div class="row">
+                <div class="col-md-9 col-sm-8">
+                  <div class="row">
+                    <div class="col-md-4 col-sm-6 item-news-block" data-aos="flip-left"><a href="">
+                        <div class="item-news">
+                          <div class="img-news"><img class="img-100" src="img/news/img1.png"></div>
+                          <p>В Алматы Тамаре Дуйсеновой презентовали проект по профилактике тяжелой инвалидности</p>
+                        </div></a><small class="text-grey">09.09, 13:00</small></div>
+                    <div class="col-md-4 col-sm-6 item-news-block" data-aos="flip-left"><a href="">
+                        <div class="item-news">
+                          <div class="img-news"><img class="img-100" src="img/news/img2.png"></div>
+                          <p>В Алматы Тамаре Дуйсеновой презентовали проект по профилактике тяжелой инвалидности</p>
+                        </div></a><small class="text-grey">09.09, 13:00</small></div>
+                    <div class="clearfix visible-sm"></div>
+                    <div class="col-md-4 col-sm-6 item-news-block" data-aos="flip-left"><a href="">
+                        <div class="item-news">
+                          <div class="img-news"><img class="img-100" src="img/news/img3.png"></div>
+                          <p>В Алматы Тамаре Дуйсеновой презентовали проект по профилактике тяжелой инвалидности</p>
+                        </div></a><small class="text-grey">09.09, 13:00</small></div>
+                    <div class="clearfix visible-lg visible-md"></div>
+                    <div class="col-md-4 col-sm-6 item-news-block" data-aos="flip-left"><a href="">
+                        <div class="item-news">
+                          <div class="img-news"><img class="img-100" src="img/news/img1.png"></div>
+                          <p>В Алматы Тамаре Дуйсеновой презентовали проект по профилактике тяжелой инвалидности</p>
+                        </div></a><small class="text-grey">09.09, 13:00</small></div>
+                    <div class="clearfix visible-sm"></div>
+                    <div class="col-md-4 col-sm-6 item-news-block" data-aos="flip-left"><a href="">
+                        <div class="item-news">
+                          <div class="img-news"><img class="img-100" src="img/news/img2.png"></div>
+                          <p>В Алматы Тамаре Дуйсеновой презентовали проект по профилактике тяжелой инвалидности</p>
+                        </div></a><small class="text-grey">09.09, 13:00</small></div>
+                    <div class="col-md-4 col-sm-6 item-news-block" data-aos="flip-left"><a href="">
+                        <div class="item-news">
+                          <div class="img-news"><img class="img-100" src="img/news/img3.png"></div>
+                          <p>В Алматы Тамаре Дуйсеновой презентовали проект по профилактике тяжелой инвалидности</p>
+                        </div></a><small class="text-grey">09.09, 13:00</small></div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-4" data-aos="zoom-in"><a href=""><img class="center-block" src="img/banners/img5.png"></a></div>
+              </div>
+              <div class="text-center">
+                <button class="btn btn-big btn-blue" type="button">Все новости</button>
+              </div>
+            </div>
+          </div>
+          <div class="row section-row bg-blue">
+            <div class="container">
+              <p class="main-title text-center">Услуги</p>
+              <p class="min-title text-center">В рамках Программы развития продуктивной занятости и массового<br>предпринимательства на 2017-2021 годы предлагается</p>
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="item-service" data-aos="zoom-out-up">
+                    <p class="number-ser">01</p>
+                    <p class="text-service">Краткосрочные курсы</p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="item-service" data-aos="zoom-out-down">
+                    <p class="number-ser">02</p>
+                    <p class="text-service">Микрокредитование для безработных</p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="item-service" data-aos="zoom-out-up">
+                    <p class="number-ser">03</p>
+                    <p class="text-service">Молоденжная практика</p>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-sm-4">
+                  <div class="item-service" data-aos="zoom-out-down">
+                    <p class="number-ser">04</p>
+                    <p class="text-service">Социальные рабочие места</p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="item-service" data-aos="zoom-out-up">
+                    <p class="number-ser">05</p>
+                    <p class="text-service">Общественные работы</p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="item-service" data-aos="zoom-out-down">
+                    <p class="number-ser">06</p>
+                    <p class="text-service">Профессиональная ориентация</p>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="text-center">
+                <button class="btn btn-big btn-yellow" type="button">Подробнее об услугах</button>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="bg-service" data-aos="fade-down">
+              <div class="text-ser-row section-row">
+                <div class="container" data-aos="flip-down">
+                  <p class="main-title">Государственные услуги в сфере занятости</p>
+                  <p>Вы можете получить помощь от сотрудников Центра занятости во всех ЦОНах города Алматы</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row section-row min-h-700">
+            <div class="container">
+              <p class="title-news">Программы развития продуктивной занятости и массового предпринимательства на 2017-2021 годы «Еңбек»</p>
+              <div class="row">
+                <div class="col-sm-6" data-aos="fade-right" data-aos-offset="300">
+                  <div class="margin-b-40 fonts-24">
+                    <p>Для назначения жилищной помощи необходимо обратиться в некоммерческое акционерное общество «Государственная корпорация «Правительство для граждан» (бывший ЦОН) по месту регистрации места жительства с заявлением и представить следующие документы:</p>
+                  </div>
+                  <button class="btn btn-big btn-blue" type="button">Узнать подробнее</button>
+                </div>
+                <div class="col-sm-6" data-aos="fade-left" data-aos-offset="500">
+                  <ul class="list-docs text-blue">
+                    <li>- копия документа, удостоверяющего личность заявителя;</li>
+                    <li>- копия правоустанавливающего документа на жилище;</li>
+                    <li>- копия книги регистрации граждан либо адресная справка, подтверждающая регистрацию по постоянному месту жительства заявителя;</li>
+                    <li>- документы, подтверждающие доходы семьи;</li>
+                    <li>- копия счета о размерах ежемесячных взносов на содержание жилого дома (жилого здания);</li>
+                    <li>- копия счета на потребление коммунальных услуг;</li>
+                    <li>- копия квитанции-счета за услуги телекоммуникаций или копия договора на оказание услуг связи;</li>
+                    <li>- копия счета о размере арендной платы за пользование жилищем, арендованным местным исполнительным органом в частном жилищном фонде, предъявленный местным исполнительным органом;</li>
+                    <li>- копия квитанции-счета стоимости однофазного счетчика электрической энергии с классом точности не ниже 1 с дифференцированным учетом и контролем расхода электроэнергии по времени суток, проживающим в приватизированных жилых помещениях (квартирах), индивидуальном жилом доме.копия правоустанавливающего документа на жилище;</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="section-row">
+              <div class="container">
+                <p class="main-title text-center">Фотогалерея</p>
+                <div class="list-gallery clearfix" id="lightgallery"><a data-src="img/news/img1.png">
+                    <div class="item-gallery" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000"><img class="img-100" src="img/news/img1.png"></div></a><a data-src="img/news/img2.png">
+                    <div class="item-gallery" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"><img class="img-100" src="img/news/img2.png"></div></a><a data-src="img/news/img3.png">
+                    <div class="item-gallery" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000"><img class="img-100" src="img/news/img3.png"></div></a><a data-src="img/news/img2.png">
+                    <div class="item-gallery" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"><img class="img-100" src="img/news/img2.png"></div></a><a data-src="img/news/img1.png">
+                    <div class="item-gallery" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000"><img class="img-100" src="img/news/img1.png"></div></a><a data-src="img/news/img3.png">
+                    <div class="item-gallery" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"><img class="img-100" src="img/news/img3.png"></div></a><a data-src="img/news/img2.png">
+                    <div class="item-gallery" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000"><img class="img-100" src="img/news/img2.png"></div></a><a data-src="img/news/img1.png">
+                    <div class="item-gallery" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"><img class="img-100" src="img/news/img1.png"></div></a></div>
+                <div class="text-center">
+                  <button class="btn btn-big btn-blue" type="button">Перейти в галерею</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row section-row bg-grey">
+            <div class="container">
+              <p class="main-title text-center">Информационные ресурсы</p>
+              <div class="slid-resurs">
+                <div class="item-slid-r" data-aos="fade-down"><img src="img/logo/logo1.png">
+                  <p><b>Парламент Республики Казахстан</b></p><a class="text-blue" href="">parlam.kz</a>
+                </div>
+                <div class="item-slid-r" data-aos="fade-down"><img src="img/logo/logo2.png">
+                  <p><b>Электронное Правительство Республики Казахстан</b></p><a class="text-blue" href="">egov.kz</a>
+                </div>
+                <div class="item-slid-r" data-aos="fade-down"><img src="img/logo/logo3.png">
+                  <p><b>Стратегия 2050</b></p><a class="text-blue" href="">prokuror.gov.kz</a>
+                </div>
+                <div class="item-slid-r" data-aos="fade-down"><img src="img/logo/logo4.png">
+                  <p><b>Генеральная Прокуратура Республики Казахстан</b></p><a class="text-blue" href="">strategy2050.kz</a>
+                </div>
+                <div class="item-slid-r" data-aos="fade-down"><img src="img/logo/logo1.png">
+                  <p><b>Парламент Республики Казахстан</b></p><a class="text-blue" href="">parlam.kz</a>
+                </div>
+                <div class="item-slid-r" data-aos="fade-down"><img src="img/logo/logo2.png">
+                  <p><b>Парламент Республики Казахстан</b></p><a class="text-blue" href="">strategy2050.kz</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row section-row bg-grey2">
+            <div class="container">
+              <p class="main-title text-center">Ответы на вопросы</p>
+              <div class="row fonts-24">
+                <div class="col-sm-4">
+                  <div class="item-ask-quation" data-aos="fade-up" data-aos-duration="1000">
+                    <p>Кому выплачивается жилищная помощь, и какие необходимые документы нужны?</p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="item-ask-quation" data-aos="fade-up" data-aos-duration="1500">
+                    <p>Кому выплачивается жилищная помощь, и какие необходимые документы нужны?</p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="item-ask-quation" data-aos="fade-up" data-aos-duration="2000">
+                    <p>Кому выплачивается жилищная помощь, и какие необходимые документы нужны?</p>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center">
+                <button class="btn btn-big btn-blue" type="button">Все вопросы</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="nav navbar hidden-xs">
+          <div class="container">
+            <div class="navbar-header">
+              <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#myNavbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href=""><img src="img/logo/logo.png"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav menu">
+                <li class="active"><a href="">Главная</a></li>
+                <li><a href="">О Центре</a></li>
+                <li><a href="">Программы</a></li>
+                <li><a href="">новости</a></li>
+                <li><a href="">контакты</a></li>
+                <li><a href="">Карта сайта</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="container text-center">
+          <div class="visible-xs"><a href=""><img class="center-block" src="img/logo/logo.png"></a></div>
+          <div class="row visible-xs">
+            <div class="col-xs-6">
+              <ul class="menu">
+                <li class="active"><a href="">Главная</a></li>
+                <li><a href="">О Центре</a></li>
+                <li><a href="">Программы</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6">
+              <ul class="menu">
+                <li><a href="">новости</a></li>
+                <li><a href="">контакты</a></li>
+                <li><a href="">Карта сайта</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-row">
+            <div class="row">
+              <div class="col-md-offset-2 col-md-8">
+                <div class="row info-contacts">
+                  <div class="col-sm-4"><img class="center-block" src="img/icons/ic-email.png"><a href="">info@czn.almaty.kz</a></div>
+                  <div class="col-sm-4"><img class="center-block" src="img/icons/ic-map.png"><a href="">ул. Назарбаева 50, угол Жибек Жолы</a></div>
+                  <div class="col-sm-4"><img class="center-block" src="img/icons/ic-phone.png"><a href="">341-04-60,</a><a href=""> 341-04-61</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom-footer"><a href="">Сделано в  bg.pro, 2018</a></div>
+          </div>
+        </div>
+      </div>
+      <script src="js/lib.min.js"></script>
+      <script src="js/aos.js"></script>
+      <script src="js/common.js"></script>
+      <script src="js/jquery.cookie.js"></script>
+      <script src="js/spec.js"></script>
+    </div>
+    <script src="js/lightgallery.js"></script>
+    <script src="js/lg-fullscreen.js"></script>
+    <script src="js/lg-thumbnail.js"></script>
+    <script src="js/lg-video.js"></script>
+    <script src="js/lg-autoplay.js"></script>
+    <script src="js/lg-zoom.js"></script>
+    <script src="js/lg-hash.js"></script>
+    <script src="js/lg-pager.js"></script>
+  </body>
+</html>
