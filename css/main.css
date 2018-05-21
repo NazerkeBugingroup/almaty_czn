@@ -686,6 +686,39 @@ input[type=checkbox]:checked:after {
 .icon-bar {
   background-color: #fff; }
 
+.camera_wrap .camera_pag .camera_pag_ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
+#camera_index {
+  margin-bottom: 0 !important;
+  height: 600px !important; }
+
+.camera_caption {
+  bottom: auto !important;
+  top: 50%;
+  text-align: center;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%); }
+  .camera_caption img {
+    margin: 0 auto; }
+
+.camera_caption > div {
+  background-color: transparent;
+  height: 100%;
+  padding: 15px; }
+
+.cameraSlide img {
+  width: 100%;
+  height: 600px !important;
+  -o-object-fit: cover;
+     object-fit: cover; }
+
 @media (max-width: 991px) {
   .right-header table td {
     width: 45px; }
@@ -781,7 +814,17 @@ input[type=checkbox]:checked:after {
   .search-input .input-group-btn {
     padding-left: 0; }
   .search-input input, .search-input .btn {
-    height: 50px; } }
+    height: 50px; }
+  #camera_index {
+    height: 300px !important;
+    margin-top: 55px; }
+  .cameraSlide img {
+    height: 300px !important; }
+  .big-title {
+    font-size: 28px;
+    line-height: 1.2; }
+  .min-title {
+    font-size: 18px; } }
 
 .top-imp {
   background: #eee !important;

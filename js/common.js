@@ -22,3 +22,8 @@ $(document).ready(function(){
     $('#lightgallery').lightGallery();
 
 });
+jQuery(function(){
+    jQuery('#camera_index').camera({
+        thumbnails: true
+    });
+});
