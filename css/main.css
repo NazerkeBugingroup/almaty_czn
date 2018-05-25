@@ -719,6 +719,24 @@ input[type=checkbox]:checked:after {
   -o-object-fit: cover;
      object-fit: cover; }
 
+.gallery-page.video-gallery .item-news .img-news {
+  height: 200px; }
+  .gallery-page.video-gallery .item-news .img-news iframe {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
+
+.item-list {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px; }
+  .item-list .fonts-18 {
+    font-size: 18px; }
+
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+  background-color: transparent;
+  opacity: 1; }
+
 @media (max-width: 991px) {
   .right-header table td {
     width: 45px; }
