@@ -369,7 +369,8 @@ a {
   margin-bottom: 7px; }
 
 .blue-menu .header {
-  background-color: #1068c1; }
+  background-color: white;
+}
 
 .blue-menu .content {
   padding-top: 90px;
