@@ -42,7 +42,7 @@ a {
     color: #fff; }
 
 .header.affix {
-  background-color: #1068c1;
+  background-color: white;
   z-index: 1000; }
 
 .navbar {
@@ -54,6 +54,7 @@ a {
     padding: 20px 15px 20px 40px; }
 
 .right-header {
+  background-color: #1068c1;
   float: right;
   margin-right: -30px; }
   .right-header table {
@@ -78,6 +79,7 @@ a {
 .menu {
   margin: 20px 0; }
   .menu li a {
+    color: #1068c1;
     font-size: 13px;
     text-transform: uppercase;
     font-weight: 600;
