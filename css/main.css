@@ -42,7 +42,7 @@ a {
     color: #fff; }
 
 .header.affix {
-  background-color: #1068c1;
+  background-color: white;;
   z-index: 1000; }
 
 .navbar {
@@ -74,10 +74,14 @@ a {
         height: 20px; }
     .right-header table td:hover a {
       opacity: 1; }
-
+.right-header.affix {
+  background-color: #1068c1;
+  right: 0;
+}
 .menu {
   margin: 20px 0; }
   .menu li a {
+    color:  #1068c1;
     font-size: 13px;
     text-transform: uppercase;
     font-weight: 600;
@@ -369,8 +373,11 @@ a {
   margin-bottom: 7px; }
 
 .blue-menu .header {
-  background-color: #1068c1; }
-
+  background-color: white;
+}
+.blue-menu .right-header{
+  background-color:#1068c1;
+}
 .blue-menu .content {
   padding-top: 90px;
   min-height: calc(100vh - 277px); }
